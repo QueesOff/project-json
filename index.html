@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="image/x-icon" rel="shortcut icon" href="img/binance-favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>Binance</title>
+</head>
+<!-- Нажать на логотип или на "Вход" -->
+<body>
+    <header>
+        <a href="list.html"><img class="logo" src="img/logo.png" alt=""></a>
+        <p class="p1">Русский</p>
+        <div class="lin"></div>
+        <img class="ico" src="img/bedtime.svg" alt="">
+    </header>
+    <form class="content" id="cont">
+        <h1>Создание личного <br> аккаунта</h1>
+        <label for="nam">Никнейм</label>
+        <br>
+        <input type="name" id="name" minlength="4" maxlength="14" required>
+        <br> <br>
+        <label for="em">Адрес личной эл. почты</label>
+        <br>
+        <input type="email" id="email" required>
+        <br> <br>
+        <label for="pas">Пароль</label>
+        <br>
+        <input type="password" id="pass" minlength="8" maxlength="14" required>
+        <br> <br>
+        <input type="checkbox" name="accept" placeholder="Вввдете checkbox" class="checkbox" required>
+        <label for="accept" class="p2">Я ознакомился(ась) и соглашаюсь с <b>Условиями обслуживания и Политикой конфиденциальности</b> Binance.</label>
+        <input type="checkbox" name="accept" placeholder="Вввдете checkbox" class="checkbox1" required>
+        <label for="accept" class="p3">Я согласен получать маркетинговые материалы от Binance.</label>
+        <button type="submit">Создание личного аккаунта</button>
+        <p class="p4">Уже зарегистрированы?  <a href="list.html"><b class="b1">Войти</b></a></p>
+    </form>
+    <footer></footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
